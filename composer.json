@@ -1,0 +1,21 @@
+{
+    "name": "codebypohsiang/apenbhdsnmp",
+    "description": "apenbhdsnmptest",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "CODEbyPoHsiang",
+            "email": "0939cool@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "FreeDSx\\Snmp\\": "src/FreeDSx/Snmp"
+    }
+  }
+}
