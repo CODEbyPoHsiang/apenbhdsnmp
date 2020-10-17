@@ -1,5 +1,5 @@
 {
-    "name": "codebypohsiang/snmp",
+    "name": "codebypohsiang/apenbhdsnmp",
     "description": "apenbhdsnmptest",
     "type": "library",
     "license": "MIT",
@@ -10,9 +10,17 @@
         }
     ],
     "minimum-stability": "dev",
-  "require": {
-    "php": ">=5.6"
-  },
+    "require": {
+      "php": ">=7.1",
+      "freedsx/asn1": "^0.4.0",
+      "freedsx/socket": "^0.3.0"
+    },
+    "require-dev": {
+      "phpspec/phpspec": "^5.0",
+      "friendsofphp/php-cs-fixer": "^2.0.0",
+      "phpstan/phpstan": "^0.11.5",
+      "phpstan/phpstan-strict-rules": "^0.11.0"
+    },
   "autoload": {
     "psr-4": {
       "FreeDSx\\Snmp\\": "src/FreeDSx/Snmp"
